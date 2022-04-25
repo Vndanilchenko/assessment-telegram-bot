@@ -1,7 +1,17 @@
 # assessment-tg-bot
 ### This telegram bot gives answers to questions about assessment
 
-Deployed on Heroku
+Deployed on Heroku. Useful commands:
+
+<\xml>
+    
+    heroku login
+    heroku create assessment-tg-bot
+    git push heroku main
+    heroku ps:scale worker=1
+    heroku ps
+
+
 
 Screenshots:
 
