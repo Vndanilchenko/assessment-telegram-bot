@@ -4,7 +4,7 @@ import os
 
 # импортируем токены
 try:
-    token = os.environ['TOKEN-HomeCreditAssessmentBot']
+    token = os.environ['TOKEN']
 except:
     from private.token import token
 
