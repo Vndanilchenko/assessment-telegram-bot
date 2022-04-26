@@ -10,11 +10,10 @@ except:
 
 # импортируем id админа
 try:
-    token = os.environ['TG_ADMIN_ID']
+    admin_id = os.environ['TG_ADMIN_ID']
 except:
     from private.token import admin_id
 
-print('TOKEN:', token)
 bot = telebot.TeleBot(token=token)
 
 # добавим логирование
