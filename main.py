@@ -14,6 +14,7 @@ try:
 except:
     from private.token import admin_id
 
+print('TOKEN:', token)
 bot = telebot.TeleBot(token=token)
 
 # добавим логирование
